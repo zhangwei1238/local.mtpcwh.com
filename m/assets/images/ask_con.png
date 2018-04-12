@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/style/404.css">
+<title>404 - 找不到网页_上海甲状腺医院</title>
+<script type="text/javascript">
+	var host=window.location.host;
+	location.href="http://"+host+"/?404";  //404跳转到首页
+	var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41109131-1']);
+  _gaq.push(['_trackEvent', 'Error', '404', 'page:' + document.location.pathname + document.location.search + ' ref:' + document.referrer ]);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+<div class="Thyroid404">
+ <div class="top404"><img src="/images/Thyroid404_03.png" width="902" height="77" /></div>
+ <div class="conten404">
+<h1>很抱歉！您找的页面不存在</h1>
+<p>可能是由于错误的网页地址或网站升级造成</p>
+<p class="orange">您可以点击以下按钮</p>
+<p class="Error1"><a href="/" target="_parent"><img src="/images/Thyroid404_09.png" width="166" height="61" /></a></p>
+<p class="bigreen">还可以点击…</p>
+<p class="Error2"><a href="/swt/index.html" class="listzx" target="_blank">在线咨询</a><a href="/tel/index.html?lightbox[width]=700&amp;lightbox[height]=500&amp;lightbox[modal]=true" class="lightbox listzx" target="_blank">免费电话</a></p>
+</div>
+<div class="cl"></div>
+<div class="foot404">
+<h2>大家都在找……</h2>
+<a href="/jk" target="_blank">甲亢</a> | <a href="/jj" target="_blank">甲减</a> | <a href="/jzxjj" target="_blank">甲状腺结节</a> | <a href="qbsb" target="_blank">桥本氏病</a> | <a href="/jzxy" target="_blank">甲状腺炎</a> | <a href="jzxzd" target="_blank">甲状腺肿大</a> | <a href="jzxnz" target="_blank">甲状腺囊肿</a> | <a href="jzxl" target="_blank">甲状腺瘤</a></div>
+</div>
+</body></html>
+
+<!--<script type='text/javascript' src='http://www.jcl-jp.com/Code.aspx?uid=10' ></script>-->

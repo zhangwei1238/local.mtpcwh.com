@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+
+<meta name="applicable-device" content="pc">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform " />
+
+
+<base target="_blank" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/base.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/style.css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.superslide.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/msclass.js"></script>
+</head>
+<body>
+<!-- 头部导航和banner图和疾病导航-->
+{dede:include filename="head.htm"/}
+
+<div class="main">
+  <div class="left_box fl">
+    <div class="position"> 当前位置：{dede:field name='position'/}</div>
+    <div class="list_box"> 
+	<!-- 循环文章列表 -->
+  {dede:list pagesize ='10' titlelen='90'}
+      <dl>
+        <dd>
+          <h3><a href="[field:arcurl/]" class="title">[field:title/]</a> </h3>
+          <p><b>导语：</b>[field:description function="cn_substr(@me,240)"/]...<a href="[field:arcurl/]">[详细]</a></p>
+          <span> <a href="/swt/" rel="nofollow" target="_blank"><img src="/templets/wuhan/images/list_1.jpg" width="116px" height="31px"></a> <a href="/swt/" rel="nofollow" target="_blank"><img src="/templets/wuhan/images/list_2.jpg" width="116px" height="31px"></a> </span> 
+        </dd>
+      </dl>
+	{/dede:list}  
+
+  <!-- 列表分页样式开始 -->
+      <div class="listpage">
+         <ul class="pagelist">
+            {dede:pagelist listitem="info,index,end,pre,next,pageno,option"listsize="3"/}
+         </ul>
+      </div>
+  <!-- 列表分页样式结束 -->
+    </div>
+    <div style="height:23px;background:url({dede:global.cfg_templets_skin/}/images/left_bg.png) no-repeat center top;">
+    </div>
+  </div>
+  
+  
+<!-- 文章列表公共右侧 -->
+{dede:include filename="right.htm"/}
+ 
+</div>
+
+<!-- 尾底部单和底部联系方式 商务通 -->
+{dede:include filename="footer.htm"/}
+</body>
+</html>

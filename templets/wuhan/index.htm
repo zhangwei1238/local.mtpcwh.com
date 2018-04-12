@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_keywords/}" />
+<meta name="keywords" content="{dede:global.cfg_description/}" />
+<meta name="applicable-device" content="pc">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform " />
+<base target="_blank" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/base.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/index.css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.superslide.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/msclass.js"></script>
+</head>
+
+
+<body>  
+<!-- 头部导航和banner图和疾病导航-->
+{dede:include filename="head.htm"/}
+
+<div class="main_1">
+  <div class="main_1_left fl"> <a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/main_1_1.jpg" alt="武汉蓝天医院定期举办甲状腺专家会诊活动" width="248px" height="372px" /></a> </div>
+  <div class="main_1_center fl">
+    <ul>
+      <li class="hover">
+      {dede:type typeid="32"}<a href="[field:typelink/]">[field:typename/]</a>{/dede:type}
+      </li>
+<!--       <li><a href="/zt/ami/">最新疗法</a></li> -->
+    </ul>
+    <div class="main_1_center_box">
+      <dl style="display:block;">
+        {dede:arclist idlist='17' limit='0,1' infolen='250'}
+        <dt> <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+          <p>[field:infos/]…<a href="[field:arcurl/]">
+            <详情>
+            </a></p>
+        </dt>
+        {/dede:arclist}
+        <dd>
+          <ol>
+          {dede:arclist typeid='32' row='4' col='1' titlelen='60'}
+            <li><a href="[field:arcurl/]">[field:title/]</a><span class="fr"><a href="[field:arcurl/]" target="_blank">详情</a></span></li>
+          {/dede:arclist}
+
+          </ol>
+        </dd>
+      </dl>
+
+    </div>
+    <script>
+			$(".main_1_center ul li").mouseenter(function(){$(this).addClass("hover").siblings().removeClass("hover");
+			$(".main_1_center_box dl").eq($(".main_1_center ul li").index($(this))).show().siblings().hide();}); 
+		</script>
+  </div>
+  <div class="main_1_right fr">
+    <div class="main_1_right_tit">医院概况</div>
+    <div class="main_1_right_box">
+      {dede:arclist idlist='17' limit='0,1' infolen='250'}
+      <img src="[field:picname/]" />
+      <p>[field:infos/]...<a href="[field:arcurl/]" strong style="color:#ff0000;">
+        <详细>
+        </a></p>
+      {/dede:arclist}
+    </div>
+  </div>
+</div>
+<div class="bot_23"></div>
+<div class="main_2 w980">
+  <div class="main_2_tit pr">
+    <div class="p_tit pa">医生简介</div>
+    <h2>神经内科治疗医生 与您共建疾病康复之路</h2>
+    <ul>
+      <li><a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/main_2_3.png" alt="武汉蓝天医院免费咨询电话" width="200px" height="22px" /></a></li>
+      <li><a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/main_2_4.png" alt="武汉蓝天医院qq" width="90px" height="22px" /></a></li>
+    </ul>
+  </div>
+  <div class="main_2_box">
+
+
+    <div class="main_2_box_left fl"><a href="/a/zhuanjiatuandui/15.html"><img src="{dede:global.cfg_templets_skin/}/images/main_2_5.jpg" alt="武汉蓝天医院甲状腺科主任" width="248px" height="372px" /></a></div>
+    <div class="main_2_box_center fl">
+      <ul>
+        <li>
+          <h3><a href="/a/zhuanjiatuandui/15.html">张世彪</a></h3>
+          <h4>主治医生</h4>
+        </li>
+        <li>
+          <p>      •  专家 QQ 211542633 </p>
+          <p>      •  武汉蓝天医院神经内科医生</p>
+        </li>
+      </ul>
+      <ol>
+        <li style="background:url({dede:global.cfg_templets_skin/}/images/main_2_6.jpg) no-repeat left top;">
+          <p>总评分 9.6分</p>
+          <p><img src="{dede:global.cfg_templets_skin/}/images/main_2_8.png" /></p>
+        </li>
+        <li style="background:url({dede:global.cfg_templets_skin/}/images/main_2_7.jpg) no-repeat left top;">
+          <p>咨询量：859</p>
+          <p>预约量：780</p>
+        </li>
+      </ol>
+      <dl>
+        <dt>医生简介</dt>
+        <dd>从事神经内科疾病临床诊疗工作20余年,在神经内科疾病的临床医疗、教学和科研工作方面，累积了丰富的实践经验</dd>
+      </dl>
+      <dl>
+        <dt>专业擅长</dt>
+        <dd>擅长治疗面瘫、面神经炎、面肌痉挛、面瘫后遗症等神经性疾病......<a href='/a/zhuanjiatuandui/15.html' style="color:red;"><strong>【点击详细了解】</strong></a></dd>
+      </dl>
+      <div class="main_2_zx"> <a class="main_2_zx_1" href="/swt/" rel="nofollow" target="_blank">在线预约</a> <a class="main_2_zx_2" href="/swt/" rel="nofollow" target="_blank">在线咨询</a> </div>
+    </div>
+ 
+   <div class="main_2_box_right fr">
+     <div class="main_2_box_right_top">官方在线自助挂号系统</div>
+     <form action="/plus/mailtoadmin.php" enctype="multipart/form-data"  method="post">
+	  <input type="hidden" name="action" value="post" />
+	  <input type="hidden" name="diyid" value="1" />
+	  <input type="hidden" name="do" value="2" />
+      <table>
+        <tr>
+          <td>* 姓 名：</td>
+          <td width="176"><input type="text" name="name" id="name" class="input" /></td>
+        </tr>
+        <tr>
+          <td>* 性 别：</td>
+          <td><input type="radio" name="sex" value="男" />
+            男   
+            <input type="radio" name="sex" value="女" />
+            女 </td>
+        </tr>
+        <tr>
+          <td>* 年 龄：</td>
+          <td><input type="text" name="age" class="input" id='age' /></td>
+        </tr>
+        <tr>
+          <td>* 电 话：</td>
+          <td><input type="text" name="tel" class="input" id='tel' /></td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top;">* 病 情：</td>
+          <td><textarea name="condition" id='condition'></textarea></td>
+        </tr>
+		<input type="hidden" name="dede_fields" value="name,text;sex,radio;age,text;tel,text;condition,multitext" />
+		<input type="hidden" name="dede_fieldshash" value="790a43a3e787c3bf8822ede79b055ed3" />
+        <tr>
+          <td> </td>
+          <td><input type="submit" name="submit" value="提交申请" class="submit" /></td>
+        </tr>
+      </table>
+      </form> </div>
+  </div>
+</div>
+<div class="bot_23"></div>
+<div class="guangao"><a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/guangao.jpg" alt="武汉甲状腺专科医院开通免费挂号预约" width="960px" height="128px" /></a></div>
+<div class="main_3 w980">
+  <div class="main_2_tit pr">
+    <div class="p_tit pa">疾病导航</div>
+    <h2>武汉蓝天医院神经内科诊疗项目</h2>
+    <ul>
+      <li><a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/main_2_3.png" alt="武汉蓝天医院甲状腺科免费咨询电话" width="200px" height="22px" /></a></li>
+      <li><a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/main_2_4.png" alt="武汉蓝天医院甲状腺专科qq号码" width="90px" height="22px" /></a></li>
+    </ul>
+  </div>
+  <div class="main_3_box">
+    <div class="main_3_left fl">
+    <!-- 循环病种开始 -->
+    {dede:channelartlist typeid='3'}
+      <div class="bz_box" style="background:url({dede:global.cfg_templets_skin/}/images/00{dede:type}[field:ID/]{/dede:type}.jpg) no-repeat;">
+        <h2><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}<span>更多...</span></a></h2>
+        <ul>
+        {dede:channel type='son' noself='yes' }
+        <li><a href="[field:typelink/]" rel="nofollow">[field:typename/]</a></li>
+        {/dede:channel}
+        
+        </ul>
+        <a href="/swt/" class="bz_box_div">在线<br>咨询</a>
+        <div class="clear"></div>
+        {dede:arclist titlelen='36' row='1' flag='h' infolen='90'}
+        <h3><a href="[field:arcurl/]">[field:title /]</a></h3>
+        <p><span>导读：</span>[field:info/]…<a href="[field:arcurl/]"><详情></a></p>
+        {/dede:arclist}
+                   
+        <ol>
+        {dede:arclist titlelen='50' row='4' noflag='h'}
+          <li><a href="[field:arcurl/]"><span>>></span>[field:title /]</a> </li>
+        {/dede:arclist}
+        </ol>
+      </div>
+    {/dede:channelartlist}
+      <div class="bz_more">
+        <ul>
+          <li> <a href="/a/miantan/"><img src="{dede:global.cfg_templets_skin/}/images/main_3_61.jpg" alt="武汉蓝天医院面瘫诊疗项目" width="145px" height="140px"/></a>
+            <h3><a href="/a/miantan/">面瘫</a></h3>
+          </li>
+          <li> <a href="/a/mianjijingluan/"><img src="{dede:global.cfg_templets_skin/}/images/main_3_71.jpg" alt="武汉蓝天医院面肌痉挛诊疗项目" width="145px" height="140px"/></a>
+            <h3><a href="/a/mianjijingluan/">面肌痉挛</a></h3>
+          </li>
+          <li> <a href="/a/sanchashenjingtong/"><img src="{dede:global.cfg_templets_skin/}/images/main_3_81.jpg" alt="武汉蓝天医院三叉神经痛诊疗项目" width="145px" height="140px" /></a>
+            <h3><a href="/a/sanchashenjingtong/">三叉神经痛</a></h3>
+          </li>
+          <li> <a href="/a/mianshenjingyan/"><img src="{dede:global.cfg_templets_skin/}/images/main_3_91.jpg" alt="武汉蓝天面神经炎诊疗项目" width="145px" height="140px" /></a>
+            <h3><a href="/a/mianshenjingyan/">面神经炎</a></h3>
+          </li>
+          <li> <a href="/"><img src="{dede:global.cfg_templets_skin/}/images/main_3_101.jpg" alt="武汉蓝天医院面神经麻痹诊疗项目" width="145px" height="140px" /></a>
+            <h3><a href="/">面神经麻痹</a></h3>
+          <li> <a href="/a/miantanhouyizheng/"><img src="{dede:global.cfg_templets_skin/}/images/main_3_111.jpg" alt="武汉蓝天医院面瘫后遗症诊疗项目" width="145px" height="140px" /></a>
+        <h3><a href="/a/miantanhouyizheng/">面瘫后遗症</a></h3>
+          </li>
+<!--          -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="main_3_right fr">
+      <dl>
+        <dd><a href="/swt/" rel="nofollow" target="_blank" class="main_3_a1"></a></dd>
+        <dd><a href="/swt/" rel="nofollow" target="_blank" class="main_3_a2"></a></dd>
+        <dd><a href="/a/laiyuanluxian/13.html" rel="nofollow" target="_blank" class="main_3_a3"></a></dd>
+        <dd><a href="/swt/" rel="nofollow" target="_blank" class="main_3_a4"></a></dd>
+        <dd><a href="/swt/" rel="nofollow" target="_blank" class="main_3_a5"></a></dd>
+        <dd><a href="/swt/" rel="nofollow" target="_blank" class="main_3_a6"></a></dd>
+      </dl>
+      <form action="http://www.jzxwzj.com/guahao.php" method="post">
+      <input type="hidden" name="hid" value="57" />
+      <input type="text" name="tel" class="tel fl" value="请输入您的手机号码" onblur="if (this.value =='') this.value='请输入您的手机号码'" onclick="if (this.value=='请输入您的手机号码') this.value=''" />
+      <input type="submit" value="免费回电" class="sub fr" />
+      </form>
+      <p style="padding-left:9px;"><img src="{dede:global.cfg_templets_skin/}/images/main_3_17.jpg" alt="武汉蓝天甲状腺专科医院电话以及来院路线" width="214px" height="81px" /></p>
+      <ul>
+        <li><a href="/swt/" rel="nofollow" target="_blank" class="main_3_l1"></a></li>
+        <li><a href="/swt/" rel="nofollow" target="_blank" class="main_3_l2"></a></li>
+        <li><a href="/swt/" rel="nofollow" target="_blank" class="main_3_l3"></a></li>
+        <li><a href="/swt/" rel="nofollow" target="_blank" class="main_3_l4"></a></li>
+      </ul>
+      <div class="main_3_wd">
+        {dede:arclist idlist='13' titlelen='40' infolen='110'}
+        <h3><a href="[field:arcurl/]">[field:title/]</a></h3>
+        <p>[field:info/]…<a href="[field:arcurl/]"><详细></a></p>
+        {/dede:arclist}
+ </div>
+      <ol>
+      {dede:arclist typeid='3' row='4' titlelen='40' orderby='rand'}
+        <li><a href="[field:arcurl/]">【已回答】<span>[field:title/]</span></a></li>
+      {/dede:arclist}
+
+      </ol>
+      <div class="main_3_ly">
+        <h2>给医师留言</h2>
+        <form action="" method="post">
+        <textarea onblur="if (this.value =='') this.value='您好，根据描述，不排除面瘫的可能性，建议您尽快到医院做面瘫检查'" onclick="if (this.value=='您好，根据描述，不排除面瘫的可能性，建议您尽快到医院做检查') this.value=''">您好，根据描述，不排除面瘫的可能性，建议您尽快到医院做检查</textarea>
+        <p>
+          <input type="submit" class="submit" value="立即提交" />
+          <input type="reset" class="reset" value="内容重置" />
+        </p>
+        </form> </div>
+    </div>
+  </div>
+</div>
+<div class="bot_23"></div>
+<div class="main_4 w980">
+  <div class="main_2_tit pr">
+    <div class="p_tit pa">推荐治疗</div>
+    <h2>安全、迅速、快捷，治疗面瘫</h2>
+    <ul>
+      <li><a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/main_2_3.png" alt="武汉甲状腺专科医院电话" width="200px" height="22px" /></a></li>
+      <li><a href="/swt/" rel="nofollow" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/main_2_4.png" alt="武汉蓝天医院甲状腺专科qq" width="90px" height="22px"  /></a></li>
+    </ul>
+  </div>
+  <div class="main_4_box">
+
+    <div class="main_4_lf">
+      
+      <div class="main_4_ami main_4_lf_box pr">
+        <p>电磁场的能量被面部组织吸收，转变为热能，可增强患者血液循环，特别是面部的毛细血管，可以改善面部组织的新陈代谢，中和面部组织自由基，降低面部神经的张力、增强体内白细胞的吞噬能力、调节机体免疫功能的作用，从而达到修复激活面神经的目的，被用于治疗面瘫，三叉神经痛等面神经疾病。<a href="/news/130.html" style="color:red;" ><strong>【详细了解】</strong></a></p>
+        <div id="LeftButton2"></div>
+        <div id="CSSBox2">
+          <dl id="CSSContent2">
+            <dd><img src="{dede:global.cfg_templets_skin/}/images/main_4_7.jpg" alt="武汉蓝天医院甲状腺仪器精密检查" width="397px" height="194px" /></dd>
+            <dd><img src="{dede:global.cfg_templets_skin/}/images/main_4_8.jpg" alt="DNR腺体脉冲修复疗法治疗甲状腺疾病" width="397px" height="194px" /></dd>
+            <dd><img src="{dede:global.cfg_templets_skin/}/images/main_4_9.jpg" alt="武汉蓝天甲状腺专科医院脉冲修复" width="397px" height="194px" /></dd>
+            <dd><img src="{dede:global.cfg_templets_skin/}/images/main_4_10.jpg" alt="武汉蓝天甲状腺专科中西调节治疗甲状腺疾病" width="397px" height="194px" /></dd>
+          </dl>
+        </div>
+        <div id="RightButton2"></div>
+        <script type="text/javascript">
+							new Marquee({
+								MSClass	  : ["CSSBox2","CSSContent2"],
+								Direction : 2,
+								PrevBtnID : "LeftButton2",
+								NextBtnID : "RightButton2",
+								Step	  : 0.3,
+								Width	  : 397,
+								Height	  : 194,
+								Timer	  : 20,
+								DelayTime : 3000,
+								WaitTime  : 0,
+								ScrollStep: 397,
+								SwitchType: 0,
+								AutoStart : true
+							});
+						</script>
+      </div>
+    </div>
+    <script>
+					$(".main_4_box ul li").click(function(){$(this).addClass("hover").siblings().removeClass("hover");
+					$(".main_4_lf .main_4_lf_box").eq($(".main_4_box ul li").index($(this))).show().siblings().hide();}); 
+				</script>
+  </div>
+</div>
+
+
+</div>
+<div class="bot_23"></div>
+<div class="main_7">
+  <div class="main_7_box">
+    
+    <div class="main_7_gd" style="display:block;">
+     <div>
+     </div>
+    </div>
+  </div>
+  <script>
+		$(".main_7 ul li").mouseenter(function(){$(this).addClass("hover").siblings().removeClass("hover");
+		$(".main_7_box .main_7_gd").eq($(".main_7 ul li").index($(this))).show().siblings().hide();}); 
+	</script> 
+</div>
+
+<!-- 尾底部单和底部联系方式 商务通 -->
+{dede:include filename="footer.htm"/}  
+
+
+</body>
+</html>

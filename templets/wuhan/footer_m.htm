@@ -1,0 +1,112 @@
+ 
+<div class="yygh_top">
+	<div class="yygh_topa zjtd_zhe mc clear">
+		<div class="yygh_topb fl">
+			<img class="fl" src="/assets/images/yygh_zha.png"> 官方在线咨询平台
+		</div>
+		<div class="yygh_topc fl">
+			<a href="tel:027-83855737"><img class="fl" src="/assets/images/yygh_zhd.png"> 预约电话：027-83855737</a>
+		</div>
+	</div>
+</div>
+
+
+<div class="zhgh_gh zjtd_zhd">
+	<div class="ghgl mc">
+
+			<input name="sectionid" id="keshi" value="40" style="display:none;" type="hidden">
+			
+			<div class="user_input">
+				<label for="name" class="jtd_zj">您的姓名：</label>
+				<input id="name" class="input_test input_testa" value="请输入您的姓名" onfocus="if(this.value == '请输入您的姓名') this.value = ''" onblur="if(this.value =='') this.value = '请输入您的姓名'" name="name" type="text">
+			</div>
+			<div class="user_input">
+				<label for="tel" class="jtd_zj">联系电话：</label>
+				<input name="telInput" id="telInput44" class="input_test input_testa"   value="请输入您的电话" onfocus="if(this.value == '请输入您的电话') this.value = ''" onblur="if(this.value =='') this.value = '请输入您的电话'" type="text">
+			</div>
+
+			<div class="tjbtn">
+                <div class="ipon fl">
+                    <input value="" type="button" name="callBtn" id="callBtn44">
+				</div>
+				<div class="submitaa fr">
+					<input value="" type="reset" id="reset">
+				</div>
+			</div>
+			
+			<script>document.getElementById("callBtn44").onclick = function () {lxb.call(document.getElementById("telInput44"));};</script>
+     	    <script>
+             $("#reset").click(function(){
+                  $("#name").val("请输入您的姓名");
+                  $("#telInput44").val("请输入您的电话");
+              })
+      		</script>
+			
+			
+	</div>
+</div>
+<div class="layout clearfix">
+  <div class="BoxL clearfix">
+    <div class="hd">
+      <ul>
+        <li class="l1"><a href="/">
+          <div></div>
+          <h4>网站首页</h4>
+          </a></li>
+        <li class="l2"><a href="javascript:void(0);return false;" onclick="openZoosUrl();return false;">
+          <div></div>
+          <h4>公益基金</h4>
+          </a></li>
+        <li class="l3 on"><a href="tel:027-83855737">
+          <div></div>
+          <h4>免费电话</h4>
+          </a></li>
+        <li class="l4"><a href="javascript:void(0);return false;" onclick="openZoosUrl();return false;">
+          <div></div>
+          <h4>在线咨询</h4>
+          </a></li>
+      </ul>
+    </div>
+    <script>
+        jQuery(".BoxL").slide({effect:"left",autoPlay:true});
+    </script> 
+  </div>
+</div>
+<div class="layout clearfix">
+	<div class="footer_bg">
+		<div class="footer">
+			<div class="footer_left fl">
+				<img src="/assets/images/footer_b_06.png">
+				<p>
+					扫描二维码
+					<br>
+					在线咨询更轻松
+				</p>
+			</div>
+			<div class="footer_right fr">
+				<div class="f_logo">
+					<img src="/assets/images/footer_logo.png" width="100%">
+					<h5><a>神经内科医学诊疗中心</a></h5>
+				</div>
+				<div class="f_tel">
+					<img src="/assets/images/footer_b_10.png"><span><b style="font-size:0.4rem;font-weight:normal">7*24h 免费电话：</b><br>
+					<i><a href="tel:027-83855737">027-83855737</a></i></span>
+				</div>
+				<div class="f_add">
+					<img src="/assets/images/footer_b_15.png"><span><b style="font-size:0.45rem;height:0.6rem;line-height:0.6rem;font-weight:normal;display:block">医院地址：</b>
+					武汉市硚口区解放大道1063号
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footswt">
+	<a href="/swt/"><img src="/assets/images/footswt_1.jpg" width="100%" alt=""></a>
+	<a href="tel:023-63126318"><img src="/assets/images/footswt_2.jpg" width="100%" alt=""></a>
+	<a href="/"><img src="/assets/images/footswt_3.jpg" width="100%" alt=""></a>
+</div>
+<!-- <script>
+$("#footswt").css("bottom",0);
+$("#footswt").css("position","fixed");
+</script> -->

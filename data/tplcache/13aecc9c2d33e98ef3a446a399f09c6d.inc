@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]">[field:title/]</a><span class="fr"><a href="[field:arcurl/]" target="_blank">详情</a></span></li>
